@@ -1,2 +1,2 @@
 # LeetCode-Repo
-A repository for tracking solutions to LeetCode I've written
+A collection of LeetCode problem solutions written by me
