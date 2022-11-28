@@ -1,2 +1,2 @@
 # LeetCode-Repo
-A collection of LeetCode problem solutions written by me
+A collection of LeetCode problem solutions, written primarily in Python and C++
