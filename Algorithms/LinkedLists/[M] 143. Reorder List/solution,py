@@ -1,0 +1,42 @@
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+import copy
+
+class Solution:
+    def reorderList(self, head: Optional[ListNode]) -> None:
+        if not head: return []
+        mid, end = head, head
+
+        # get middle of the list
+        while end.next and end.next.next:
+            mid = mid.next
+            end = end.next.next
+        if end.next:
+            mid = mid.next
+
+        
+        # reverse from mid to end
+        curr = mid
+        prev = None
+        while(curr):
+            tempNext = curr.next
+            curr.next = prev
+            prev = curr
+            curr = tempNext
+        reverse = prev
+
+        # merge fwd and reverse lists
+        c1 = head
+        c2 = reverse
+        count = 0
+        while (c2.next):
+            temp = c1.next
+            c1.next = c2
+            c1 = temp
+
+            temp2 = c2.next
+            c2.next = c1
+            c2 = temp2
