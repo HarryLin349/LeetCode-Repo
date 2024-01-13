@@ -1,0 +1,35 @@
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+        left, right = 0, len(nums) - 1
+        count = 0
+        while (left < right):
+            mid = (left + right) // 2
+            maxval = max(nums[left], nums[right], nums[mid])
+            minval = min(nums[left], nums[right], nums[mid])
+            minind = left if nums[left] == minval else right if nums[right] == minval else mid
+            maxind = left if nums[left] == maxval else right if nums[right] == maxval else mid
+            midind = (minind + maxind) // 2
+            left = maxind + 1
+            right = minind
+            if left > right:
+                return right
+        return right
+
+    def binSearch(self, nums, target):
+        left, right = 0, len(nums) - 1
+        while (left <= right):
+            mid = (left + right) // 2
+            if target == nums[mid]:
+                return mid
+            elif target < nums[mid]:
+                right = mid - 1
+            else:
+                left = mid + 1
+        return -1
+
+    def search(self, nums: List[int], target: int) -> int:
+        pivot = self.findMin(nums)
+        r1 = self.binSearch(nums[0:pivot], target)
+        r2 = self.binSearch(nums[pivot:], target)
+        r2 = r2 + pivot if r2 != -1 else -1
+        return max(r1,r2)
