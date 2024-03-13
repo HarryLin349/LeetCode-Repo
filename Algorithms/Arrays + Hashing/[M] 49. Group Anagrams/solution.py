@@ -1,3 +1,6 @@
+# Runtime 98.66%
+# Memory 45.5%
+
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         found = {}
