@@ -1,3 +1,5 @@
+# quit slow
+
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         # naively: dp, i is index, j is own, k is remaining buys
