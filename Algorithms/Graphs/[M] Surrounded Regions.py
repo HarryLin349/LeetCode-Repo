@@ -38,17 +38,24 @@ class Solution:
         for i in range(n):
             if board[i][0] == "O":
                 fillAtoB((i,0), "O", "E")
-                edges.append((i,0))
+                # edges.append((i,0))
             if board[i][m-1] == "O":
                 fillAtoB((i,m-1), "O", "E")
-                edges.append((i,m-1))
+                # edges.append((i,m-1))
 
         # now we can iterate over and check for islands (skip the edges)
-        for i in range(1, n-1):
-            for j in range(1, m-1):
-                if board[i][j] == "O":
-                    fillAtoB((i,j), "O", "X")
+        # for i in range(1, n-1):
+        #     for j in range(1, m-1):
+        #         if board[i][j] == "O":
+        #             fillAtoB((i,j), "O", "X")
         
-        for i,j in edges:
-            fillAtoB((i,j), "E", "O")
+        # for i,j in edges:
+        #     fillAtoB((i,j), "E", "O")
+
+        for i in range(n):
+            for j in range(m):
+                if board[i][j] == "O":
+                    board[i][j] = "X"
+                elif board[i][j] == "E":
+                    board[i][j] = "O"
         
