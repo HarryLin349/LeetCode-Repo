@@ -8,7 +8,7 @@ class Solution:
 
         # sort by finishing time
         # iterate over each
-        # take the cur finished if it doesnt conflict with any taken so far ? 
+        # take the cur finished if it doesnt conflict with any taken so far ?
         init = len(intervals)
         taken = set()
 
@@ -31,4 +31,3 @@ class Solution:
             ---  ---  ---
         
         '''
-        # 
