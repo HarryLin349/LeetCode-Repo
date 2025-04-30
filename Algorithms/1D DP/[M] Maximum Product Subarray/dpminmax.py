@@ -22,3 +22,5 @@ class Solution:
         for i in range(n):
             maxproduct = max(maxproduct, memo[i][0])
         return maxproduct
+
+# 13%

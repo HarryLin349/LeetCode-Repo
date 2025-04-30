@@ -29,3 +29,5 @@ class Solution:
             res = max(res, memo[i])
         print(memo)
         return res
+
+# 5%..

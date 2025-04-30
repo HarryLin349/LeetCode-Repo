@@ -22,7 +22,7 @@ class Solution:
             # cur interval overlaps with newInterval
             else:
                 newInterval = [min(i[0], newInterval[0]), max(i[1], newInterval[1])]
-            # overlap, skip            
+            # overlap, skip
         newList.append(newInterval)
         return newList
 
