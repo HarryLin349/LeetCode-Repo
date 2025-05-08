@@ -44,15 +44,15 @@ overall n^2 logn
 from heapq import heapify, heappush, heappop
 
 i = 0 # start of subarrays, increases by 1 each time
-j = 0# end of subarrays
+j = 0 # end of subarrays
 
 res = 0
 
 n = len(input)
 for i in range(n):
   cur = i
-  leftheap = []
-  rightheap = []
+  leftheap = [] # a max heap
+  rightheap = [] # a minheap
   while cur < n:
     median = -1
     cnum = input[cur]
@@ -60,6 +60,7 @@ for i in range(n):
       heappush(leftheap, -cnum)
     else:
       heappush(rightheap, cnum)
+      
 
     # add cur to heap
     if (cur - i) % 2 == 0:
