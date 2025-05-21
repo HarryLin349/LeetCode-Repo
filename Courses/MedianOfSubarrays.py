@@ -39,6 +39,17 @@ idea: start at index 0. try each subarray [0], [0..2], [0..4], etc.
 at each step we're adding 2 more elems, which we can put on our two min/maxheaps
 overal, for this one case should be nlogn
 overall n^2 logn
+
+
+[2 4 5]
+[2 4] [5]
+
+[1 2 3 4 5 6]
+[... 3] [4 ...]
+add 4
+[... 4] [4]
+add 2
+[ ..2,3] [4..]
 '''
 
 from heapq import heapify, heappush, heappop
