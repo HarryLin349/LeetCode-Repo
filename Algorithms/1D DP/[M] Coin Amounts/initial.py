@@ -1,5 +1,5 @@
 class Solution:
-    def coinChange(self, coins: List[int], amount: int) -> int:
+    def coinChange(self, coins: list[int], amount: int) -> int:
         INTMAX = 10**4 + 1
         # idea: DP? at each value, choose to collect a certain coin
         # dp(i) = min number of coins to reach amount i

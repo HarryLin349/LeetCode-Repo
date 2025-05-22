@@ -1,5 +1,5 @@
 class Solution:
-    def largestRectangleArea(self, heights: List[int]) -> int:
+    def largestRectangleArea(self, heights: list[int]) -> int:
         # idea: evaluate in order
         # keep a stack to track heights and their starting index
         max_area = -1

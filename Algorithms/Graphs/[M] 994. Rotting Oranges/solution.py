@@ -1,7 +1,7 @@
 from collections import deque
 
 class Solution:
-    def orangesRotting(self, grid: List[List[int]]) -> int:
+    def orangesRotting(self, grid: list[list[int]]) -> int:
         m = len(grid)
         n = len(grid[0])
         distances = grid

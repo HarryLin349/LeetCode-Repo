@@ -1,5 +1,5 @@
 class Solution:
-    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
+    def ladderLength(self, beginWord: str, endWord: str, wordlist: list[str]) -> int:
         # idea: bfs over a graph constructed over words?
         # dp? backtracking? 
 
@@ -13,12 +13,12 @@ class Solution:
         # other ideas ..?
         # hard part is checking valid moves seems O(n) unless there's a smarter way
 
-        wordSet = set(wordList)
-        wordList.append(beginWord)
-        wordMap = { word:[] for word in wordList}
-        m = len(wordList[0])
+        wordSet = set(wordlist)
+        wordlist.append(beginWord)
+        wordMap = { word:[] for word in wordlist}
+        m = len(wordlist[0])
 
-        for word in wordList:
+        for word in wordlist:
             # consider every 1 letter permutation
             for letterPos in range(m):
                 for char in range(ord('a'), ord('z') + 1):

@@ -1,7 +1,7 @@
 import math
 
 class Solution:
-    def minEatingSpeed(self, piles: List[int], h: int) -> int:
+    def minEatingSpeed(self, piles: list[int], h: int) -> int:
         # h hours to eat i piles
         # sum(elems // k) <= h
         # find the min k 

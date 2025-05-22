@@ -1,5 +1,5 @@
 class Solution:
-    def countPairs(self, deliciousness: List[int]) -> int:
+    def countPairs(self, deliciousness: list[int]) -> int:
         '''
         ideas: 
         naively, iterate over O(n^2) and check each pair 

@@ -1,7 +1,7 @@
 from collections import deque
 
 class Solution:
-    def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:
+    def updateBoard(self, board: list[list[str]], click: list[int]) -> list[list[str]]:
         '''
         precompute counts of each grid (if mine, set all around it to += 1)
         then traverse via BFS from click:

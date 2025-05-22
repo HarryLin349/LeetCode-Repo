@@ -1,5 +1,5 @@
 class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+    def topKFrequent(self, nums: list[int], k: int) -> list[int]:
         # problem:  find the most freq elems
         # naive approach: dict of elems 
         # then sort by seen and return first k

@@ -1,6 +1,6 @@
 # BEATS 100% LETS GOOO
 class Solution:
-    def alienOrder(self, words: List[str]) -> str:
+    def alienOrder(self, words: list[str]) -> str:
         '''
         idea: construct a DAG of letters
         n1 -> n2 iff n1 < n2 

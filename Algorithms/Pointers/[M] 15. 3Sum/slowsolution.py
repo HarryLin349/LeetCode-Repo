@@ -1,5 +1,5 @@
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def threeSum(self, nums: list[int]) -> list[list[int]]:
         nums.sort()
         print(nums)
         answer = []
@@ -13,7 +13,7 @@ class Solution:
                     answer.append(sorted(ans))
         return answer
     
-    def twoSum(self, numbers: List[int], target: int, forbidden: int) -> List[int]:
+    def twoSum(self, numbers: list[int], target: int, forbidden: int) -> list[int]:
         i1 = 0
         i2 = len(numbers) - 1
         answer = []

@@ -1,6 +1,6 @@
 from heapq import heappush, heappop
 class Solution:
-    def minMeetingRooms(self, intervals: List[List[int]]) -> int:
+    def minMeetingRooms(self, intervals: list[list[int]]) -> int:
         '''
         idea: given these intervals, return the max overlap at one time
         sort intervals by start time. 

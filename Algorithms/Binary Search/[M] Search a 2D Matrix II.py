@@ -1,5 +1,5 @@
 class Solution:
-    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+    def searchMatrix(self, matrix: list[list[int]], target: int) -> bool:
         # naively: binsearch every row O(mlogn)
         # what math properties can we see here?
         # increasing diagonals

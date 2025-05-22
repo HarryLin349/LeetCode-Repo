@@ -1,7 +1,7 @@
 import collections
 
 class Solution:
-    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+    def maxSlidingWindow(self, nums: list[int], k: int) -> list[int]:
         d = collections.deque()
         ans = []
         for i, num in enumerate(nums):

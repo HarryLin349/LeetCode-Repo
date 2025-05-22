@@ -1,7 +1,7 @@
 # runtime O(n), memory O(n)
 
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
+    def maxProfit(self, prices: list[int]) -> int:
         maxProfit = 0
         # naively: use DP
         # dp[i][j] = max profit at i...n given j = (0/1) (own stock/don't own stock)

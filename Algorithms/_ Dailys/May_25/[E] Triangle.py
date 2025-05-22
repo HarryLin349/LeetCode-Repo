@@ -2,7 +2,7 @@
 Simple elif with unpacking
 '''
 class Solution:
-    def triangleType(self, nums: List[int]) -> str:
+    def triangleType(self, nums: list[int]) -> str:
         '''
         triangle iff any 2 sides > remaining
         equilateral iff all equal

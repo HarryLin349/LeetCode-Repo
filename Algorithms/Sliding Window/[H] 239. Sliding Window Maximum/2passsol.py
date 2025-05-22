@@ -2,7 +2,7 @@
 This solution times out, but I still think it's clever, since its time complexity is O(n).
 '''
 class Solution:
-    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+    def maxSlidingWindow(self, nums: list[int], k: int) -> list[int]:
         leftMax = []
         rightMax = []
         cLeftMax = nums[0]

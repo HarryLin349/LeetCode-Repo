@@ -1,5 +1,5 @@
 class Solution:
-    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
+    def insert(self, intervals: list[list[int]], newInterval: list[int]) -> list[list[int]]:
         # intuition:
         # do a linear scan.
         # curStart, curEnd = newInterval[0], newInterval[1]

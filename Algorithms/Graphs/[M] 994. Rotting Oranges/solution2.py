@@ -1,5 +1,5 @@
 class Solution:
-    def orangesRotting(self, grid: List[List[int]]) -> int:
+    def orangesRotting(self, grid: list[list[int]]) -> int:
         # idea: explore BFS wise, marking oranges as rotten with each iteration
         # keep track of time with each iterations
         #

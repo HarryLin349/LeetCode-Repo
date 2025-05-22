@@ -1,5 +1,5 @@
 class Solution:
-    def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
+    def updateMatrix(self, mat: list[list[int]]) -> list[list[int]]:
         m = len(mat)
         n = len(mat[0])
         result = mat

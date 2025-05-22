@@ -1,5 +1,5 @@
 class Solution:
-    def minCostClimbingStairs(self, cost: List[int]) -> int:
+    def minCostClimbingStairs(self, cost: list[int]) -> int:
         # let dp[i] be the cost of climbing from the ith step 
         # idea: dp[i] = cost[i] + min(dp[i + 1] + dp[i+2])
         n = len(cost)

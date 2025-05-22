@@ -1,5 +1,5 @@
 class Solution:
-    def maxProduct(self, nums: List[int]) -> int:
+    def maxProduct(self, nums: list[int]) -> int:
         '''
         idea
         dp, dp[i] is the max product from i to n assuming we take i 

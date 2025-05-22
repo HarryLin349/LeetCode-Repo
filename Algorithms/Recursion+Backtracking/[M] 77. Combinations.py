@@ -2,9 +2,9 @@ from collections import deque
 import copy
 
 class Solution:
-    def combine(self, n: int, k: int) -> List[List[int]]:
+    def combine(self, n: int, k: int) -> list[list[int]]:
         output = []
-        def backtrack(first: int, cur: List[int]):
+        def backtrack(first: int, cur: list[int]):
             if (len(cur) == k):
                 output.append(cur[:])
                 return

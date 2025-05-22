@@ -1,7 +1,7 @@
 # quit slow
 
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
+    def maxProfit(self, prices: list[int]) -> int:
         # naively: dp, i is index, j is own, k is remaining buys
         # technically n * 2 * 2 = n*4 = O(n) time and space
         n = len(prices)

@@ -1,5 +1,5 @@
 class Solution:
-    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+    def findOrder(self, numCourses: int, prerequisites: list[list[int]]) -> list[int]:
         # idea: use dfs and a topological ordering
         # have an array "taken"
         # base case: if we encounter a course with no reqs, we append to order list and return true

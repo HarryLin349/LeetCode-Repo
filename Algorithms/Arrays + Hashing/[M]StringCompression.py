@@ -1,5 +1,5 @@
 class Solution:
-    def compress(self, chars: List[str]) -> int:
+    def compress(self, chars: list[str]) -> int:
         # idea
         # keep track of "cur" character
         # while curchar is prev, increment counter and pop

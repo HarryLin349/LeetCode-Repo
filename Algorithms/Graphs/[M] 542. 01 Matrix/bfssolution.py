@@ -1,5 +1,5 @@
 class Solution:
-    def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
+    def updateMatrix(self, mat: list[list[int]]) -> list[list[int]]:
         m, n = len(mat), len(mat[0])
         DIR = [0, 1, 0, -1, 0]
 

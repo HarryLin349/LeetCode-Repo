@@ -1,5 +1,5 @@
 class Solution:
-    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+    def merge(self, intervals: list[list[int]]) -> list[list[int]]:
         # idea: build an array
         # sort the array
         # iterate over each interval, if it doesn't overlap with the next, add it

@@ -1,5 +1,5 @@
 class Solution:
-    def rob(self, nums: List[int]) -> int:
+    def rob(self, nums: list[int]) -> int:
         # dp[i] is the max profit from house i..n
         # dp[i] = max of cost i + dp[i + 2]
         #           or dp[i+1]

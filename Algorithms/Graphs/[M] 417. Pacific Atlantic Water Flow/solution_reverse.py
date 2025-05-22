@@ -1,5 +1,5 @@
 class Solution:
-    def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
+    def pacificAtlantic(self, heights: list[list[int]]) -> list[list[int]]:
         # idea: work in reverse? 
         # have pacific and atlantic
         # BFS from edges, if the neighbor is >= then visit it (set to True)

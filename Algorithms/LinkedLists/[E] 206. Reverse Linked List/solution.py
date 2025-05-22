@@ -1,5 +1,5 @@
 class Solution:
-    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def reverselist(self, head: Optional[listNode]) -> Optional[listNode]:
         cur = head
         prev = None
         nxt  = None

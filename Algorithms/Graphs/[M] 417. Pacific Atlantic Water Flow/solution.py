@@ -1,5 +1,5 @@
 class Solution:
-    def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
+    def pacificAtlantic(self, heights: list[list[int]]) -> list[list[int]]:
         valid = []
         def checkFlood(r,c,n,m)-> bool:
             visited = []

@@ -1,4 +1,4 @@
-def rotate(self, nums: List[int], k: int) -> None:
+def rotate(self, nums: list[int], k: int) -> None:
 	def reverse(start, end): # helper method to reverse from start to end
 		while start < end: # while there is stuff to reverse
 			nums[start], nums[end] = nums[end], nums[start] # swap the elements at the ends

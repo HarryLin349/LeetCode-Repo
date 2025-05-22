@@ -1,5 +1,5 @@
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
+    def maxProfit(self, prices: list[int]) -> int:
         #idea: dp
         # dp[i][j] = most profit from day i..n given you can buy, with j being 0 or 1 = own or not
         # can buy, sell (skip next day), or hold

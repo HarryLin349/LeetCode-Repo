@@ -1,5 +1,5 @@
 class Solution:
-    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
+    def findRedundantConnection(self, edges: list[list[int]]) -> list[int]:
         # idea: since we need the answer that occurs last in the input, we 
         # should traverse edge by edge
         # each edge, we check if its reachable to each other by dfs

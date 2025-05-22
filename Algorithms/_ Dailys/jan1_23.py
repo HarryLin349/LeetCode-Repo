@@ -1,5 +1,5 @@
 class Solution:
-    def findContentChildren(self, g: List[int], s: List[int]) -> int:
+    def findContentChildren(self, g: list[int], s: list[int]) -> int:
         # first instinct:
         # sort greeds and sizes
         # go down the sizes, assigning each size to the smallest greed.

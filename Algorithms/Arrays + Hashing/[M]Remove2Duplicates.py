@@ -1,7 +1,7 @@
 # 80. Remove Duplicates from Sorted Array II
 
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
+    def removeDuplicates(self, nums: list[int]) -> int:
         if len(nums) < 3:
             return len(nums)
         idx = 2

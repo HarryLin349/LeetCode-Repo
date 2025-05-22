@@ -1,5 +1,5 @@
 class Solution:
-    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+    def searchMatrix(self, matrix: list[list[int]], target: int) -> bool:
         # time complexity --> halve candidates each time
         # traditional binary search:
         # l,r, mid, and you keep halving the target space

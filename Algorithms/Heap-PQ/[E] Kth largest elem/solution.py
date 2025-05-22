@@ -1,5 +1,5 @@
 class Solution:
-    def findKthLargest(self, nums: List[int], k: int) -> int:
+    def findKthLargest(self, nums: list[int], k: int) -> int:
         pqueue = []
         for num in nums:
             heappush(pqueue, num *- 1)

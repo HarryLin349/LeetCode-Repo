@@ -1,5 +1,5 @@
 class Solution:
-    def maxSubArray(self, nums: List[int]) -> int:
+    def maxSubArray(self, nums: list[int]) -> int:
         '''
         idea: greedily, we throw out the cur subarray if it ever goes negative
         '''

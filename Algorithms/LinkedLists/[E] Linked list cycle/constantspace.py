@@ -1,5 +1,5 @@
 class Solution:
-    def hasCycle(self, head: Optional[ListNode]) -> bool:
+    def hasCycle(self, head: Optional[listNode]) -> bool:
         fast = head
         slow = head
         while (fast and fast.next):

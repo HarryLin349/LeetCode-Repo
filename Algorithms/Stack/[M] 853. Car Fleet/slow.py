@@ -1,7 +1,7 @@
 import collections
 
 class Solution:
-    def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
+    def carFleet(self, target: int, position: list[int], speed: list[int]) -> int:
         speed = [x for _,x in sorted(zip(position,speed), reverse=True)]
         position = sorted(position, reverse=True)
         i = 0

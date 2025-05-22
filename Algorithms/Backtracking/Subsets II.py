@@ -1,5 +1,5 @@
 class Solution:
-    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+    def subsetsWithDup(self, nums: list[int]) -> list[list[int]]:
         # idea: same as with subsets I except with duplicates
         # at each step we can either take or not take the element to add to the cur subset
         # issue: we shouldn't start the backtrack step to take the rest of the elems

@@ -1,5 +1,5 @@
 class Solution:
-    def reverseString(self, s: List[str]) -> None:
+    def reverseString(self, s: list[str]) -> None:
         spare = ""
         length = len(s)
         for x in range(floor(length/2)):

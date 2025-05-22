@@ -1,12 +1,12 @@
 # Definition for singly-linked list.
-# class ListNode:
+# class listNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
 import copy
 
 class Solution:
-    def reorderList(self, head: Optional[ListNode]) -> None:
+    def reorderlist(self, head: Optional[listNode]) -> None:
         if not head: return []
         mid, end = head, head
 

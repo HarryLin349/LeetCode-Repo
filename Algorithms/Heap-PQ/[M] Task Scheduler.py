@@ -2,7 +2,7 @@ from collections import defaultdict
 from heapq import heappush, heappop, heapreplace
 
 class Solution:
-    def leastInterval(self, tasks: List[str], n: int) -> int:
+    def leastInterval(self, tasks: list[str], n: int) -> int:
         '''
         ideas
         greedy: take the valid task with the most remaining count

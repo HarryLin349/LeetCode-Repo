@@ -1,7 +1,7 @@
 from collections import defaultdict
 from heapq import heapify, heappush, heappop
 class Solution:
-    def topKFrequent(self, words: List[str], k: int) -> List[str]:
+    def topKFrequent(self, words: list[str], k: int) -> list[str]:
         '''
         ideas:
         return the k most freq of string

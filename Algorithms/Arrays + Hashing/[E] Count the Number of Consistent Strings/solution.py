@@ -1,5 +1,5 @@
 class Solution:
-    def countConsistentStrings(self, allowed: str, words: List[str]) -> int:
+    def countConsistentStrings(self, allowed: str, words: list[str]) -> int:
         # idea: we just care about characters occuring
         # not necessarily counts
         allowSet = set(allowed)

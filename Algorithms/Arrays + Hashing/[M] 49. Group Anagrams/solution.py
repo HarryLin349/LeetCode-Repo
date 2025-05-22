@@ -2,7 +2,7 @@
 # Memory 45.5%
 
 class Solution:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
         found = {}
         for word in strs:
             sortedWord = ''.join(sorted(word))

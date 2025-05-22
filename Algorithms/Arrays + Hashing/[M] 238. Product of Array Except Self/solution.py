@@ -1,5 +1,5 @@
 class Solution:
-    def productExceptSelf(self, nums: List[int]) -> List[int]:
+    def productExceptSelf(self, nums: list[int]) -> list[int]:
         left, right, answer = [0] * len(nums), [0] * len(nums), [0] * len(nums)
         prod = 1
         for i in range(len(nums)):

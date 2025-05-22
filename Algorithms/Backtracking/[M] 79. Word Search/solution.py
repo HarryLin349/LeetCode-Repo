@@ -1,5 +1,5 @@
 class Solution:
-    def exist(self, board: List[List[str]], word: str) -> bool:
+    def exist(self, board: list[list[str]], word: str) -> bool:
         moves = [(0,1), (0, -1), (-1, 0), (1,0)]
         self.res = False
         def search(ind, cx,cy, visited):

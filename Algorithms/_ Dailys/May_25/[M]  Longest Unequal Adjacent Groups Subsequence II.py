@@ -2,7 +2,7 @@ from collections import deque
 import numpy as np
 
 class Solution:
-    def getWordsInLongestSubsequence(self, words: List[str], groups: List[int]) -> List[str]:
+    def getWordsInLongestSubsequence(self, words: list[str], groups: list[int]) -> list[str]:
         '''
         hamming distance = number of positions with diff chars
         select longest subdp(cur+1, cur)seq where groups unequal and word lens =1 and hamming is 1
@@ -47,6 +47,6 @@ class Solution:
             else:
                 memo[cur][last] = sol2
             return memo[cur][last]
-        res = dp(0,-1)      
+        res = dp(0,-1)
         # print(memo)
-        return res  
+        return res

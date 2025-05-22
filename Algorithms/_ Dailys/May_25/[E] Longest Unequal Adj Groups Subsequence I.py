@@ -1,5 +1,5 @@
 class Solution:
-    def getLongestSubsequence(self, words: List[str], groups: List[int]) -> List[str]:
+    def getLongestSubsequence(self, words: list[str], groups: list[int]) -> list[str]:
         '''
         ideas:
         for a subsequence 0,0 1, 0, 1

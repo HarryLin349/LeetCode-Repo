@@ -1,5 +1,5 @@
 class Solution:
-    def combinationSum3(self, k: int, n: int) -> List[List[int]]:
+    def combinationSum3(self, k: int, n: int) -> list[list[int]]:
         self.res = []
         def backtrack(self, perm, k, n):
             if (len(perm) == k and sum(perm) == n):

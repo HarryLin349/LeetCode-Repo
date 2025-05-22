@@ -19,7 +19,7 @@ class Solution:
                 update curPos, break
     '''
 
-    def hasValidPath(self, grid: List[List[int]]) -> bool:
+    def hasValidPath(self, grid: list[list[int]]) -> bool:
         directions = [0,1,2,3] # UDLR
         validOutput = {
             1: set([2,3]),

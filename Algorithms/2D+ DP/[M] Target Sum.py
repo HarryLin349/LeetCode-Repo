@@ -1,5 +1,5 @@
 class Solution:
-    def findTargetSumWays(self, nums: List[int], target: int) -> int:
+    def findTargetSumWays(self, nums: list[int], target: int) -> int:
         # idea: dp
         # dp(i, j) represents from i..n, the sum is equal to j
         # base case: if i <= 0 and j == target, return 1

@@ -1,5 +1,5 @@
 class Solution:
-    def exist(self, board: List[List[str]], word: str) -> bool:
+    def exist(self, board: list[list[str]], word: str) -> bool:
         directions = [(1,0), (-1,0), (0,1), (0,-1)]
         m,n = len(board), len(board[0 ])
         def backtrack(curPos, curInd, visited):

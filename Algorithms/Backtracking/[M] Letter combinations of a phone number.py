@@ -1,5 +1,5 @@
 class Solution:
-    def letterCombinations(self, digits: str) -> List[str]:
+    def letterCombinations(self, digits: str) -> list[str]:
         # idea: backtracking --> each step, pick a letter for each number
 
         # for each number, we choose a letter it could represent

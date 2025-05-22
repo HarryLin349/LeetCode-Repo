@@ -1,5 +1,5 @@
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def threeSum(self, nums: list[int]) -> list[list[int]]:
         # review: 2sum is O(n) where we hash each elems opp
         # and then check to see if it exists
         # we could run 2sum given each first num for O(n^2)

@@ -1,5 +1,5 @@
 class Solution:
-    def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def middleNode(self, head: Optional[listNode]) -> Optional[listNode]:
         fast = head
         slow = head
         while fast:

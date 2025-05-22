@@ -1,10 +1,10 @@
 # Definition for singly-linked list.
-# class ListNode:
+# class listNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
 class Solution:
-    def removeNodes(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def removeNodes(self, head: Optional[listNode]) -> Optional[listNode]:
         # intuitively:
         # iterate once: make a max array that tracks max from right
         # iterate once: if val < maxArr[pos] delete it

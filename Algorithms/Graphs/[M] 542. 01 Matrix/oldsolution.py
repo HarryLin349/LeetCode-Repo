@@ -15,7 +15,7 @@
                         queue.append((newx,newy))
         return m + n + 1
 
-    def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
+    def updateMatrix(self, mat: list[list[int]]) -> list[list[int]]:
         m = len(mat)
         n = len(mat[0])
         result = mat

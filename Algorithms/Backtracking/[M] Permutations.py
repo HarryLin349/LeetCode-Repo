@@ -1,5 +1,5 @@
 class Solution:
-    def permute(self, nums: List[int]) -> List[List[int]]:
+    def permute(self, nums: list[int]) -> list[list[int]]:
         # for each elem, pick a random num from remaining
         result = []
         cur = []
@@ -24,7 +24,7 @@ class Solution:
     
 '''
 class Solution:
-    def permute(self, nums: List[int]) -> List[List[int]]:
+    def permute(self, nums: list[int]) -> list[list[int]]:
         # take each elem of nums
         # creating a permutation
         # pick one of the elems

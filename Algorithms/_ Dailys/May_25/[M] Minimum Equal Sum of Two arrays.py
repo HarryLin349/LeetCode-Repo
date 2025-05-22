@@ -1,5 +1,5 @@
 class Solution:
-    def minSum(self, nums1: List[int], nums2: List[int]) -> int:
+    def minSum(self, nums1: list[int], nums2: list[int]) -> int:
         '''
         idea: greedily check
         if we have any zeroes q, we can scale the array from >= n + q 

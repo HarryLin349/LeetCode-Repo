@@ -1,5 +1,5 @@
 class Solution:
-    def canAttendMeetings(self, intervals: List[List[int]]) -> bool:
+    def canAttendMeetings(self, intervals: list[list[int]]) -> bool:
         '''
         idea: can attend meeting = no conflicts
         sort by start time to take meetings as they come

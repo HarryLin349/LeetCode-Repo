@@ -1,5 +1,5 @@
 # Definition for singly-linked list.
-# class ListNode:
+# class listNode:
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
@@ -20,7 +20,7 @@ class Solution:
             cur = cur.next
 
         """
-        :type node: ListNode
+        :type node: listNode
         :rtype: void Do not return anything, modify node in-place instead.
         """
         

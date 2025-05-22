@@ -1,5 +1,5 @@
 class Solution:
-    def findMin(self, nums: List[int]) -> int:
+    def findMin(self, nums: list[int]) -> int:
         left, right = 0, len(nums) - 1
         count = 0
         while (left < right):
@@ -27,7 +27,7 @@ class Solution:
                 left = mid + 1
         return -1
 
-    def search(self, nums: List[int], target: int) -> int:
+    def search(self, nums: list[int], target: int) -> int:
         pivot = self.findMin(nums)
         r1 = self.binSearch(nums[0:pivot], target)
         r2 = self.binSearch(nums[pivot:], target)

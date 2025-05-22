@@ -1,5 +1,5 @@
 class Solution:
-    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+    def canFinish(self, numCourses: int, prerequisites: list[list[int]]) -> bool:
         # we can see these as an adjacency list of a graph
         # pre[i]: ai <- bi
         # when can we not take all courses?

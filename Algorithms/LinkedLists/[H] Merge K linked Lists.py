@@ -1,16 +1,16 @@
 # Definition for singly-linked list.
-# class ListNode:
+# class listNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
 
 class Solution:    
-    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+    def mergeKlists(self, lists: list[Optional[listNode]]) -> Optional[listNode]:
         n = len(lists)
-        def mergeTwoLists(list1, list2):
+        def mergeTwolists(list1, list2):
             cur1 = list1
             cur2 = list2
-            dummy = ListNode()
+            dummy = listNode()
             cur = dummy
             while cur1 and cur2:
                 if cur1.val < cur2.val:
@@ -28,7 +28,7 @@ class Solution:
         
         for i in range(1, n):
             list1, list2 = lists[i-1], lists[i]
-            newList = mergeTwoLists(list1,list2)
-            lists[i] = newList
+            newlist = mergeTwolists(list1,list2)
+            lists[i] = newlist
         
         return lists[-1] if n > 0 else None

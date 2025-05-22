@@ -13,7 +13,7 @@ class MagicDictionary:
         self.children = set()
         self.letters = []
 
-    def buildDict(self, dictionary: List[str]) -> None:
+    def buildDict(self, dictionary: list[str]) -> None:
         for word in dictionary:
             for i in range(len(word)):
                 for letter in range(26):

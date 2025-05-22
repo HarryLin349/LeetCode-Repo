@@ -1,5 +1,5 @@
 class Solution:
-    def maxProfit(self, k: int, prices: List[int]) -> int:
+    def maxProfit(self, k: int, prices: list[int]) -> int:
         # idea: dp[i][j][k] --> max profit from i .. n given you have or don't 0/1, k is remaining buys
         # either take or don't take
         n = len(prices)

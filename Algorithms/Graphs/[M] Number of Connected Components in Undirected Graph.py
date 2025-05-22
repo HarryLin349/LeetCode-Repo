@@ -1,5 +1,5 @@
 class Solution:
-    def countComponents(self, n: int, edges: List[List[int]]) -> int:
+    def countComponents(self, n: int, edges: list[list[int]]) -> int:
         # idea:
         # DFS with prev, if cycle stop
         # each DFS will explore one connected component 

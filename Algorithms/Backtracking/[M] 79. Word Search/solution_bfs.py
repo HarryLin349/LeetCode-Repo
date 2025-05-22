@@ -1,5 +1,5 @@
 class Solution:
-    def exist(self, board: List[List[str]], word: str) -> bool:
+    def exist(self, board: list[list[str]], word: str) -> bool:
         # naively: for each start point, BFS to search the words around it
         # runtime: O(mn) * O(4^n)
         seen = set()

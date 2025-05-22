@@ -17,7 +17,7 @@ class Solution:
     use a tuple to track the amount
     at each operation, subtract amount from tuple until complete
     '''
-    def getNumberOfBacklogOrders(self, orders: List[List[int]]) -> int:
+    def getNumberOfBacklogOrders(self, orders: list[list[int]]) -> int:
         MOD = 10**9 + 7
         sells = []
         buys = []

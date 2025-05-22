@@ -1,5 +1,5 @@
 class Solution:
-    def jump(self, nums: List[int]) -> int:
+    def jump(self, nums: list[int]) -> int:
         # The starting range of the first jump is [0, 0]
         answer, n = 0, len(nums)
         cur_end, cur_far = 0, 0

@@ -1,5 +1,5 @@
 class Solution:
-    def threeConsecutiveOdds(self, arr: List[int]) -> bool:
+    def threeConsecutiveOdds(self, arr: list[int]) -> bool:
         '''
         ideas:
         maintain a stack for odds, if even reset, if odd add on

@@ -1,6 +1,6 @@
 from collections import defaultdict
 class Solution:
-    def restoreArray(self, adjacentPairs: List[List[int]]) -> List[int]:
+    def restoreArray(self, adjacentPairs: list[list[int]]) -> list[int]:
         '''
         idea: ordering matters? likely not, still a probable way to solve either way
         sorting? sort by first key and 

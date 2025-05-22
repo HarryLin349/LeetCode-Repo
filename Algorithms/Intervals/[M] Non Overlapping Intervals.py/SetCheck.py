@@ -1,5 +1,5 @@
 class Solution:
-    def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
+    def eraseOverlapIntervals(self, intervals: list[list[int]]) -> int:
         # sort first
         # overlapping --> start or end of one is within portion of other
         # greedy -> just remove overlaps as we see them

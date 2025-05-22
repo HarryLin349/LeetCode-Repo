@@ -1,5 +1,5 @@
 class Solution:
-    def validTree(self, n: int, edges: List[List[int]]) -> bool:
+    def validTree(self, n: int, edges: list[list[int]]) -> bool:
         # idea: check if we have cycles with DFS
 
         visited = set()

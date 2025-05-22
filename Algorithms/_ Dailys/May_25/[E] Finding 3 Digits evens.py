@@ -1,6 +1,6 @@
 from collections import defaultdict
 class Solution:
-    def findEvenNumbers(self, digits: List[int]) -> List[int]:
+    def findEvenNumbers(self, digits: list[int]) -> list[int]:
         '''
         - 3 digit integer, combination of elems in digits
         - no leading zeroes

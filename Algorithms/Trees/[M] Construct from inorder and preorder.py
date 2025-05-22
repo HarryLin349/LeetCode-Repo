@@ -11,7 +11,7 @@ class Solution:
     from that num, bisect inorder to get immediate children
     if children arent already seen, we construct the tree, then set it as the L/R child of the cur
     '''
-    def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
+    def buildTree(self, preorder: list[int], inorder: list[int]) -> Optional[TreeNode]:
         if len(preorder) == 0:
             return None
         # print(preorder, inorder)

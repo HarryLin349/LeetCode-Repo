@@ -2,7 +2,7 @@
 # runtime O(n), memory O(1)
 
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
+    def maxProfit(self, prices: list[int]) -> int:
         maxProfit = 0
         # naively: use DP
         # idea: greedy. with unlimited buys we can just count upswings

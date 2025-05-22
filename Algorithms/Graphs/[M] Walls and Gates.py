@@ -1,5 +1,5 @@
 class Solution:
-    def islandsAndTreasure(self, grid: List[List[int]]) -> None:
+    def islandsAndTreasure(self, grid: list[list[int]]) -> None:
         INF = 2147483647
         # idea: start with BFS from each treasure chest
         # queue filled with (pos, distance)?

@@ -1,5 +1,5 @@
 class Codec:
-    def encode(self, strs: List[str]) -> str:
+    def encode(self, strs: list[str]) -> str:
         numwords = str(len(strs))
         posstr = "."
         finalstr = ""
@@ -13,7 +13,7 @@ class Codec:
         """
         
 
-    def decode(self, s: str) -> List[str]:
+    def decode(self, s: str) -> list[str]:
         """Decodes a single string to a list of strings.
         """
         strs = []

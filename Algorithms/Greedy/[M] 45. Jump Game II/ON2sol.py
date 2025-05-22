@@ -1,5 +1,5 @@
 class Solution:
-    def jump(self, nums: List[int]) -> int:
+    def jump(self, nums: list[int]) -> int:
         n = len(nums)
         jumps = [-1] * n
         jumps[n-1] = 0

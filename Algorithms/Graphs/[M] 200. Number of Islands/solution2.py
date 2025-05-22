@@ -1,5 +1,5 @@
 class Solution:
-    def numIslands(self, grid: List[List[str]]) -> int:
+    def numIslands(self, grid: list[list[str]]) -> int:
         # idea: iterate over each space in the grid
         # when encountering a 1, increment numIslands by 1
         # then, fill it out with BFS, turning each 1 into a 0

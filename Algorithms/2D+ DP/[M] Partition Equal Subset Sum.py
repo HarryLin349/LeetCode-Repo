@@ -1,6 +1,6 @@
 from collections import deque
 class Solution:
-    def canPartition(self, nums: List[int]) -> bool:
+    def canPartition(self, nums: list[int]) -> bool:
         '''
         idea: dp, want a subset of nums == target
         dp(i,j) = from i..n, we can reach j
