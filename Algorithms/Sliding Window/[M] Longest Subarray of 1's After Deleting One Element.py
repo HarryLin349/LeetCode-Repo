@@ -1,5 +1,5 @@
 class Solution:
-    def longestSubarray(self, nums: List[int]) -> int:
+    def longestSubarray(self, nums: list[int]) -> int:
         '''
         idea: treat this as we have 1 "skip"
         l,r is the cur subarray, l,r = 0

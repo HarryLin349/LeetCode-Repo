@@ -1,5 +1,5 @@
 class Solution:
-    def longestOnes(self, nums: List[int], k: int) -> int:
+    def longestOnes(self, nums: list[int], k: int) -> int:
         '''
         idea
         we can flip k 0's
