@@ -1,5 +1,5 @@
 class Solution:
-    def findMaxAverage(self, nums: List[int], k: int) -> float:
+    def findMaxAverage(self, nums: list[int], k: int) -> float:
         '''
         ideas
         we want a length equal to k
