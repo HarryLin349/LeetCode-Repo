@@ -1,5 +1,5 @@
 class Solution:
-    def findDifference(self, nums1: List[int], nums2: List[int]) -> List[List[int]]:
+    def findDifference(self, nums1: list[int], nums2: list[int]) -> list[list[int]]:
         '''
         set 1 -> all distinct ints in nums 1 which arent in num 2
         set 2 - > all distinct ints in nums 2 not in nums1

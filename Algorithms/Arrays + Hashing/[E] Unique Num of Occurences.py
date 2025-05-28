@@ -1,6 +1,6 @@
 from collections import defaultdict
 class Solution:
-    def uniqueOccurrences(self, arr: List[int]) -> bool:
+    def uniqueOccurrences(self, arr: list[int]) -> bool:
         counts = defaultdict(int)
         seen = set()
         for num in arr:
