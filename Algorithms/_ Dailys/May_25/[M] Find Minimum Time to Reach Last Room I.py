@@ -1,7 +1,7 @@
 from collections import deque
 from heapq import heappush, heappop
 class Solution:
-    def minTimeToReach(self, moveTime: List[List[int]]) -> int:
+    def minTimeToReach(self, moveTime: list[list[int]]) -> int:
         '''
         nxm rooms in a grid
         min time to reach n-1, m-1

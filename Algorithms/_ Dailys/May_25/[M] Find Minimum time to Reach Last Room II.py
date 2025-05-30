@@ -1,6 +1,6 @@
 from heapq import heappush, heappop
 class Solution:
-    def minTimeToReach(self, moveTime: List[List[int]]) -> int:
+    def minTimeToReach(self, moveTime: list[list[int]]) -> int:
         '''
         ideas:
         least cost path, where the cost of the next dest is

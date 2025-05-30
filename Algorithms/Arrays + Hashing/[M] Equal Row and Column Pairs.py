@@ -1,6 +1,6 @@
 from collections import defaultdict
 class Solution:
-    def equalPairs(self, grid: List[List[int]]) -> int:
+    def equalPairs(self, grid: list[list[int]]) -> int:
         '''
         ideas
         compare rows and columns

@@ -1,6 +1,6 @@
 from collections import defaultdict
 class Solution:
-    def numEquivDominoPairs(self, dominoes: List[List[int]]) -> int:
+    def numEquivDominoPairs(self, dominoes: list[list[int]]) -> int:
         n = len(dominoes)
         seen = defaultdict(int)
         res = 0

@@ -1,5 +1,5 @@
 class Solution:
-    def pivotIndex(self, nums: List[int]) -> int:
+    def pivotIndex(self, nums: list[int]) -> int:
         '''
         idea: track cur sum going left
         if leftsum == total - cur, we have a match
