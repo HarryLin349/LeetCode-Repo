@@ -1,6 +1,6 @@
 from collections import defaultdict
 class Solution:
-    def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
+    def longestIncreasingPath(self, matrix: list[list[int]]) -> int:
         '''
         idea: backtracking
         start at each, explore 1 if we can, then undo the move
