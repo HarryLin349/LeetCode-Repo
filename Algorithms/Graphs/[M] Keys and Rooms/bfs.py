@@ -16,7 +16,7 @@ class Solution:
                 return True
             keys = rooms[room]
             for key in keys:
-                if key not in visited:a
+                if key not in visited:
                     queue.append(key)
         return False
 '''
