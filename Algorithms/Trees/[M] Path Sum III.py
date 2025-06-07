@@ -38,3 +38,16 @@ class Solution:
             return csum
         findSum(root, 0, [0])
         return res
+
+
+        '''
+        Reflection
+        I did better than I thought!! Thought I couldn't solve this one but did pretty well
+        Speed 39% Mem 8%
+        The Memoization solution is really smart. Basically, for each path sum, track the # of ways to get that sum
+
+        then when we're at node n with csum k, and we need k - p for target (can be negative), we add cache[p] to the results if it exists
+
+        Then we remove this entry of cache[k] after popping out to above this node, since it no longer can apply to any other paths
+        holay!
+        '''

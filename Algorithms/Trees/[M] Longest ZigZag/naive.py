@@ -47,16 +47,6 @@ class Solution:
         return maxres
 
             
-            
-        
-        maxZigZag(root, "left", 0)
-        maxZigZag(root, "right", 0)
-
-        tree = []
-        for node, val in seen.items():
-            tree.append((node[0].val, node[1], val))
-        
-        tree.sort()
-        for line in tree:
-            print(line)
-        return maxres
+'''
+5% Speed 5% Memory
+'''
